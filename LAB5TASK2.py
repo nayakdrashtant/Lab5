@@ -29,13 +29,16 @@ def move_rectangle(Argument,dx,dy):
 
 def new_rectangle(Argument,width,height):
     myobj = Argument()
-    myobj.width = width
-    myobj.height = height
+    myobj.width = int(width)
+    myobj.height = int(height)
     centerCoord = (myobj.x+(myobj.width/2), myobj.y+(myobj.height/2))
     print("Center of New Rectangle :",centerCoord)
 
 find_center(Rectangle)
 x = input("Enter X coordinates to move circle:")
 y = input("Enter Y coordinates to move circle:")
+w = input("Enter Width for new Rectangle:")
+h = input("Enter Heigh for new Rectangle:")
 
 move_rectangle(Rectangle,x,y)
+new_rectangle(Rectangle,w,h)
