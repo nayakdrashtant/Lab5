@@ -6,8 +6,8 @@
 # Task 5 - Done
 # Task 6 - Done
 # Task 7 - Done
-# Task 8
-# Task 9
+# Task 8 - Same as Task 6
+# Task 9 - Done
 # Task 10
 # Task 11
 # Task 12
